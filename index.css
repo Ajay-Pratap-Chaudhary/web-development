@@ -1,0 +1,75 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top right,rgb(71, 145, 195),rgb(17, 43, 107));
+}
+#container{
+    height: 300px;
+    width: 500px;
+    background-color: aliceblue;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#first-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#hour{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border-color: brown;
+    color: white;
+    text-align: center;
+    font: 5em sans-serif;
+
+}
+#minute{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border-color: brown;
+    color:white;
+    text-align: center;
+    font: 5em sans-serif;
+}
+#second{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border-color: brown;
+    color:white;
+    text-align: center;
+    font: 5em sans-serif;
+}
+#second-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+button:first-child{
+    background-color: green;
+    border-radius: 5px;
+    border-color: black;
+    width: 150px;
+    height: 50px;
+}
+button:last-child{
+    background-color:red;
+    border-radius: 5px;
+    border-color: black;
+    width: 150px;
+    height: 50px;
+}
